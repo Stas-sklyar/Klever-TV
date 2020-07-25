@@ -23,8 +23,8 @@ for (let elem in wowElement) {
     wowElement[elem].classList.add("animate__animated", "animate__fadeInUp");
 }
 
-let wowElementR = document.getElementsByClassName("wow--r");
+let wowElementR = document.getElementsByClassName("wowR");
 
-for (let elem in wowElement) {
+for (let elem in wowElementR) {
     wowElement[elem].classList.remove("animate__fadeInUp");
 }
